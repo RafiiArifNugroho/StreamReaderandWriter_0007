@@ -12,3 +12,9 @@ int main()
 
         cout << "Pernyataan tidak akan ditampilkan" << endl;
     }
+
+    // kondisi jika throw yang bertipe data integer
+    catch (int a)
+    {
+        cout << "Pengecualian akan di eksekusi" << endl;
+    }
